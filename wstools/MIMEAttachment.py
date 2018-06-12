@@ -1,4 +1,4 @@
-#TODO add the license
+#TODO add the license.
 #I had to rewrite this class because the python MIME email.mime (version 2.5)
 #are buggy, they use \n instead \r\n for new line which is not compliant
 #to standard!
