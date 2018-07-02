@@ -12,7 +12,7 @@ import p2pool
 from p2pool.bitcoin import data as bitcoin_data, script, sha256
 from p2pool.util import math, forest, pack
 
-# hashlink
+# hashlink.
 
 hash_link_type = pack.ComposedType([
     ('state', pack.FixedStrType(32)),
