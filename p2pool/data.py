@@ -32,7 +32,7 @@ def check_hash_link(hash_link, data, const_ending=''):
     assert len(extra) == extra_length
     return pack.IntType(256).unpack(hashlib.sha256(sha256.sha256(data, (hash_link['state'], extra, 8*hash_link['length'])).digest()).digest())
 
-# shares
+#shares
 
 share_type = pack.ComposedType([
     ('type', pack.VarIntType()),
