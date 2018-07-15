@@ -1,4 +1,4 @@
-"""Namespace module, so you don't need PyXML 
+"""Namespace module, so you don't need PyXML.
 """
 
 ident = "$Id$"
